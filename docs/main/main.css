@@ -3,6 +3,10 @@
     padding: 0;
     margin: 0;
 }
+body{
+    
+    background-color: #f5f5f5;
+}
 .disabled{
     color: #666666;
 }
@@ -32,17 +36,67 @@
 .socials div a i:hover{
     color: #4d4d4d;
 }
-.some-info{
-    background-color: #212529;
-    color: #ffffff;
+.projects{
+    padding: 7rem 5rem 2rem 5rem;
+}
+.separator{
+    margin: 2rem auto;
+	text-align: center;
+}
+.using h3, .learning h3, .other-skills h3{
+	text-align: left;
     padding: 3rem;
+}
+.other-skills img{
+	height: 6rem;
+	width: 6rem;
+}
+/* .skills h2, .projects h2, .contact h2{
+	width: 30%;
+	margin: 2rem auto;
+	padding: 15px;
+	font-weight: 1000;
+} */
+footer{
+	background-color: #212529;
+	height: 230px;
+	color: #fff;
+	padding: 60px 25px 5px 20px;
+}
+.social-links-bottom .fa-github-square, .social-links-bottom .fa-instagram-square, .social-links-bottom .fa-steam-square, .social-links-bottom .fa-envelope-square{
+	color: #fff;
+	margin: auto;
+	text-align: center;
+    font-size: 3rem;
+}
+.project-images{
+    flex-wrap: wrap;
+}
+.contact{
+    margin: 7rem 3rem;
+}
+.contact p{
+	width: 50%;
+	margin: 80px auto;
+}
+.form-control{
+	width: 50%;
+	margin: 2rem auto;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: black 2px solid;
+	border-left: black 2px solid;
+	background-color: #f5f5f5;
 }
 
 @media only screen and (max-width: 600px) {
     .basic-info{
-        margin: 5rem 3rem 1rem 3rem;
+        margin: 5rem 2rem 3rem 2rem;
     }
     .img{
+        width: 70vw;
+    }
+    .profile-pic{
         display: none;
     }
     .little-box{

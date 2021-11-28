@@ -28,13 +28,13 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link"href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="projects.html">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contacts.html">Contacts</a>
+                            <a class="nav-link active" aria-current="page" href="contacts.html">Contacts</a>
                         </li>
                     </ul>
                 </div>
@@ -42,43 +42,31 @@
         </nav>
     </header>
     <main>
-        <div class="basic-info">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div>
-                            <h1>Hi, I am <br> Miras Sharipzhan</h1>
-                            <p class="disabled">IITU student/front-end developer(kinda)</p>
-                        </div>
-                        <div class="socials d-flex flex-row">
-                            <div class="p-2 little-box">
-                                <a href="https://github.com/zxclinical" target="_blank">
-                                    <i class="fab fa-github-square"></i>
-                                </a>
-                            </div>
-                            <div class="p-2 little-box">
-                                <a href="https://www.instagram.com/sssrankghoul/" target="_blank">
-                                    <i class="fab fa-instagram-square"></i>
-                                </a>
-                            </div>
-                            <div class="p-2 little-box">
-                                <a href="https://steamcommunity.com/id/obsessive_despair/" target="_blank">
-                                    <i class="fab fa-steam-square"></i>
-                                </a>
-                            </div>
-                            <div class="p-2 little-box">
-                                <a href="https://vk.com/tearsgonnafall" target="_blank">
-                                    <i class="fab fa-vk"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <img class="profile-pic" src="imgs/profile-pic.png" alt="Gigachad">
-                    </div>
-                </div>
-            </div>
-        </div>
+       <div class="container-fluid">
+        <div class="contact" class="mx-auto text-center">
+			<h2 class="text-center">
+				CONTACT ME
+			</h2>
+		</div>
+		<div class="separator">
+			<img src="imgs/separatorBlack1.png" alt="separator">
+		</div>
+		<form id="form" class="text-center">
+			<div class="form-group">
+				<input type="text" class="form-control" id="name" placeholder="ENTER YOUR NAME*">
+			</div>
+			<div class="form-group">
+				<input type="email" class="form-control" id="email" placeholder="ENTER YOUR EMAIL*">
+			</div>
+			<div class="form-group">
+				<input type="tel" class="form-control" id="number" placeholder="ENTER YOUR NUMBER">
+			</div>
+			<div class="form-group">
+				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="ENTER YOUR MESSAGE*"></textarea>
+			</div>
+			<button type="submit" class="btn">SUBMIT</button>
+		</form>
+       </div>
     </main>
     <footer class="text-center mx-auto">
         <div class="d-flex flex-row social-links-bottom justify-content-center">
