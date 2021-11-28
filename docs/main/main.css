@@ -91,6 +91,9 @@ footer{
 .profile-pic{
     width: 25vw;
 }
+.error{
+    color: #c40000;
+}
 
 @media only screen and (max-width: 600px) {
     .basic-info{
